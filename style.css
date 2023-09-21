@@ -1,15 +1,143 @@
-* {
-    font-family: 'Roboto', sans-serif; 
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
+    width: auto;
     max-width: 100%;
+}
+
+nav {
+    padding: 0 10%;
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.header-logo {
+    width: 80px;
     height: auto;
 }
 
+.header-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding-left: 18px;
+}
+
+.header-links a:hover {
+    color: #e37151;
+}
+
+.hero {
+    padding: 40px 10%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-left {
+    flex: 4;
+}
+
+.hero-right {
+    flex: 6;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.factsContainer {
+    text-align: center;
+    padding: 0% 10%;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fact {
+    flex: 1;
+}
+
+.fact img {
+    border: #3882f6;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 0 10%;
+}
+
+.quote .text {
+    font-style: italic;
+    text-align: center;
+}
+
+.quote .author {
+    text-align: end;
+}
+
+.CTA {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 30px 10%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA p {
+    margin: 0;
+}
+
+.CTA p.bold {
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+}
+
+/*
+
 .header {
-    height: 80px;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +145,13 @@ img {
 }
 
 a.header {
+    width: 100%;
     color: #f9faf8;
+    text-decoration: none;
+}
+
+a.header {
+    color: #e5e7eb;
 }
 
 #header-logo {
@@ -25,6 +159,7 @@ a.header {
 }
 
 .body {
+    width: 85%;
     display: flex;
     flex-direction: column;
 }
@@ -62,7 +197,6 @@ p.hero {
     display: flex;
     justify-content: space-around;
 }
-
 
 
 .block-3 {
@@ -109,3 +243,5 @@ p.hero {
 .footer {
     text-align: center;
 }
+
+*/
