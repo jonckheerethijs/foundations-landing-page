@@ -67,15 +67,17 @@ img.header-logo {
     color: #e5e7eb;
 }
 
-.hero button {
+button {
     background-color: #3882f6;
     border-radius: 5px;
     border-style: none;
+    padding: 5px 20px;
+
 }
 
 .factsContainer {
     text-align: center;
-    padding: 0% 10%;
+    padding: 2% 10% 8%;
 }
 
 .facts {
@@ -125,13 +127,23 @@ img.header-logo {
     margin: 0;
 }
 
-.CTA p.bold {
+.CTA h3 {
+    margin: 0;
+    padding 4px
     font-weight: 700;
+}
+
+.CTA-right button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 3px;
 }
 
 footer {
     text-align: center;
     background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 12px;
 }
 
 /*
